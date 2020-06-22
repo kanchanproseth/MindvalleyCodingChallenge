@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D400A44024A0916C005CC048 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D400A43F24A0916C005CC048 /* AppDelegate.swift */; };
+		D400A44224A0916C005CC048 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D400A44124A0916C005CC048 /* SceneDelegate.swift */; };
+		D400A44424A0916C005CC048 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D400A44324A0916C005CC048 /* ViewController.swift */; };
+		D400A44724A0916C005CC048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D400A44524A0916C005CC048 /* Main.storyboard */; };
+		D400A44924A09171005CC048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D400A44824A09171005CC048 /* Assets.xcassets */; };
+		D400A44C24A09171005CC048 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D400A44A24A09171005CC048 /* LaunchScreen.storyboard */; };
+		D400A45724A09171005CC048 /* MindvalleyCodingChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D400A45624A09171005CC048 /* MindvalleyCodingChallengeTests.swift */; };
+		D400A46224A09171005CC048 /* MindvalleyCodingChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D400A46124A09171005CC048 /* MindvalleyCodingChallengeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D400A45324A09171005CC048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D400A43424A0916C005CC048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D400A43B24A0916C005CC048;
+			remoteInfo = MindvalleyCodingChallenge;
+		};
+		D400A45E24A09171005CC048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D400A43424A0916C005CC048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D400A43B24A0916C005CC048;
+			remoteInfo = MindvalleyCodingChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D400A43C24A0916C005CC048 /* MindvalleyCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindvalleyCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D400A43F24A0916C005CC048 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D400A44124A0916C005CC048 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D400A44324A0916C005CC048 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D400A44624A0916C005CC048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D400A44824A09171005CC048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D400A44B24A09171005CC048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D400A44D24A09171005CC048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D400A45224A09171005CC048 /* MindvalleyCodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindvalleyCodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D400A45624A09171005CC048 /* MindvalleyCodingChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindvalleyCodingChallengeTests.swift; sourceTree = "<group>"; };
+		D400A45824A09171005CC048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D400A45D24A09171005CC048 /* MindvalleyCodingChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindvalleyCodingChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D400A46124A09171005CC048 /* MindvalleyCodingChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindvalleyCodingChallengeUITests.swift; sourceTree = "<group>"; };
+		D400A46324A09171005CC048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D400A43924A0916C005CC048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D400A44F24A09171005CC048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D400A45A24A09171005CC048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D400A43324A0916C005CC048 = {
+			isa = PBXGroup;
+			children = (
+				D400A43E24A0916C005CC048 /* MindvalleyCodingChallenge */,
+				D400A45524A09171005CC048 /* MindvalleyCodingChallengeTests */,
+				D400A46024A09171005CC048 /* MindvalleyCodingChallengeUITests */,
+				D400A43D24A0916C005CC048 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D400A43D24A0916C005CC048 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D400A43C24A0916C005CC048 /* MindvalleyCodingChallenge.app */,
+				D400A45224A09171005CC048 /* MindvalleyCodingChallengeTests.xctest */,
+				D400A45D24A09171005CC048 /* MindvalleyCodingChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D400A43E24A0916C005CC048 /* MindvalleyCodingChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				D400A43F24A0916C005CC048 /* AppDelegate.swift */,
+				D400A44124A0916C005CC048 /* SceneDelegate.swift */,
+				D400A44324A0916C005CC048 /* ViewController.swift */,
+				D400A44524A0916C005CC048 /* Main.storyboard */,
+				D400A44824A09171005CC048 /* Assets.xcassets */,
+				D400A44A24A09171005CC048 /* LaunchScreen.storyboard */,
+				D400A44D24A09171005CC048 /* Info.plist */,
+			);
+			path = MindvalleyCodingChallenge;
+			sourceTree = "<group>";
+		};
+		D400A45524A09171005CC048 /* MindvalleyCodingChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D400A45624A09171005CC048 /* MindvalleyCodingChallengeTests.swift */,
+				D400A45824A09171005CC048 /* Info.plist */,
+			);
+			path = MindvalleyCodingChallengeTests;
+			sourceTree = "<group>";
+		};
+		D400A46024A09171005CC048 /* MindvalleyCodingChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D400A46124A09171005CC048 /* MindvalleyCodingChallengeUITests.swift */,
+				D400A46324A09171005CC048 /* Info.plist */,
+			);
+			path = MindvalleyCodingChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D400A43B24A0916C005CC048 /* MindvalleyCodingChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D400A46624A09171005CC048 /* Build configuration list for PBXNativeTarget "MindvalleyCodingChallenge" */;
+			buildPhases = (
+				D400A43824A0916C005CC048 /* Sources */,
+				D400A43924A0916C005CC048 /* Frameworks */,
+				D400A43A24A0916C005CC048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindvalleyCodingChallenge;
+			productName = MindvalleyCodingChallenge;
+			productReference = D400A43C24A0916C005CC048 /* MindvalleyCodingChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D400A45124A09171005CC048 /* MindvalleyCodingChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D400A46924A09171005CC048 /* Build configuration list for PBXNativeTarget "MindvalleyCodingChallengeTests" */;
+			buildPhases = (
+				D400A44E24A09171005CC048 /* Sources */,
+				D400A44F24A09171005CC048 /* Frameworks */,
+				D400A45024A09171005CC048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D400A45424A09171005CC048 /* PBXTargetDependency */,
+			);
+			name = MindvalleyCodingChallengeTests;
+			productName = MindvalleyCodingChallengeTests;
+			productReference = D400A45224A09171005CC048 /* MindvalleyCodingChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D400A45C24A09171005CC048 /* MindvalleyCodingChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D400A46C24A09171005CC048 /* Build configuration list for PBXNativeTarget "MindvalleyCodingChallengeUITests" */;
+			buildPhases = (
+				D400A45924A09171005CC048 /* Sources */,
+				D400A45A24A09171005CC048 /* Frameworks */,
+				D400A45B24A09171005CC048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D400A45F24A09171005CC048 /* PBXTargetDependency */,
+			);
+			name = MindvalleyCodingChallengeUITests;
+			productName = MindvalleyCodingChallengeUITests;
+			productReference = D400A45D24A09171005CC048 /* MindvalleyCodingChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D400A43424A0916C005CC048 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Kan Chanproseth";
+				TargetAttributes = {
+					D400A43B24A0916C005CC048 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					D400A45124A09171005CC048 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D400A43B24A0916C005CC048;
+					};
+					D400A45C24A09171005CC048 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D400A43B24A0916C005CC048;
+					};
+				};
+			};
+			buildConfigurationList = D400A43724A0916C005CC048 /* Build configuration list for PBXProject "MindvalleyCodingChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D400A43324A0916C005CC048;
+			productRefGroup = D400A43D24A0916C005CC048 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D400A43B24A0916C005CC048 /* MindvalleyCodingChallenge */,
+				D400A45124A09171005CC048 /* MindvalleyCodingChallengeTests */,
+				D400A45C24A09171005CC048 /* MindvalleyCodingChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D400A43A24A0916C005CC048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D400A44C24A09171005CC048 /* LaunchScreen.storyboard in Resources */,
+				D400A44924A09171005CC048 /* Assets.xcassets in Resources */,
+				D400A44724A0916C005CC048 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D400A45024A09171005CC048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D400A45B24A09171005CC048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D400A43824A0916C005CC048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D400A44424A0916C005CC048 /* ViewController.swift in Sources */,
+				D400A44024A0916C005CC048 /* AppDelegate.swift in Sources */,
+				D400A44224A0916C005CC048 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D400A44E24A09171005CC048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D400A45724A09171005CC048 /* MindvalleyCodingChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D400A45924A09171005CC048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D400A46224A09171005CC048 /* MindvalleyCodingChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D400A45424A09171005CC048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D400A43B24A0916C005CC048 /* MindvalleyCodingChallenge */;
+			targetProxy = D400A45324A09171005CC048 /* PBXContainerItemProxy */;
+		};
+		D400A45F24A09171005CC048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D400A43B24A0916C005CC048 /* MindvalleyCodingChallenge */;
+			targetProxy = D400A45E24A09171005CC048 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D400A44524A0916C005CC048 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D400A44624A0916C005CC048 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D400A44A24A09171005CC048 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D400A44B24A09171005CC048 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D400A46424A09171005CC048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D400A46524A09171005CC048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D400A46724A09171005CC048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DEE97ABVRX;
+				INFOPLIST_FILE = MindvalleyCodingChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kan-Chanproseth.MindvalleyCodingChallenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D400A46824A09171005CC048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DEE97ABVRX;
+				INFOPLIST_FILE = MindvalleyCodingChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kan-Chanproseth.MindvalleyCodingChallenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D400A46A24A09171005CC048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DEE97ABVRX;
+				INFOPLIST_FILE = MindvalleyCodingChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kan-Chanproseth.MindvalleyCodingChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindvalleyCodingChallenge.app/MindvalleyCodingChallenge";
+			};
+			name = Debug;
+		};
+		D400A46B24A09171005CC048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DEE97ABVRX;
+				INFOPLIST_FILE = MindvalleyCodingChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kan-Chanproseth.MindvalleyCodingChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindvalleyCodingChallenge.app/MindvalleyCodingChallenge";
+			};
+			name = Release;
+		};
+		D400A46D24A09171005CC048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DEE97ABVRX;
+				INFOPLIST_FILE = MindvalleyCodingChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kan-Chanproseth.MindvalleyCodingChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindvalleyCodingChallenge;
+			};
+			name = Debug;
+		};
+		D400A46E24A09171005CC048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DEE97ABVRX;
+				INFOPLIST_FILE = MindvalleyCodingChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kan-Chanproseth.MindvalleyCodingChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindvalleyCodingChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D400A43724A0916C005CC048 /* Build configuration list for PBXProject "MindvalleyCodingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D400A46424A09171005CC048 /* Debug */,
+				D400A46524A09171005CC048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D400A46624A09171005CC048 /* Build configuration list for PBXNativeTarget "MindvalleyCodingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D400A46724A09171005CC048 /* Debug */,
+				D400A46824A09171005CC048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D400A46924A09171005CC048 /* Build configuration list for PBXNativeTarget "MindvalleyCodingChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D400A46A24A09171005CC048 /* Debug */,
+				D400A46B24A09171005CC048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D400A46C24A09171005CC048 /* Build configuration list for PBXNativeTarget "MindvalleyCodingChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D400A46D24A09171005CC048 /* Debug */,
+				D400A46E24A09171005CC048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D400A43424A0916C005CC048 /* Project object */;
+}
